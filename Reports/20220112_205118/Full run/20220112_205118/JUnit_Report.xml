@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Full run" time="36.112" tests="2" failures="0" errors="0">
+   <testsuite name="Full run" tests="2" failures="0" errors="0" time="36.112" skipped="0" timestamp="2022-01-12 20:51:27" hostname="nadiakhouri - localhost" id="Test Suites/Full run">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nadiakhouri/Katalon Studio/Spark Networks/Reports/20220112_205118/Full run/20220112_205118"/>
+         <property name="logFiles" value="/Users/nadiakhouri/Katalon Studio/Spark Networks/Reports/20220112_205118/Full run/20220112_205118/execution0.log"/>
+         <property name="attachments" value="/Users/nadiakhouri/Katalon Studio/Spark Networks/Data Files/Screenshot/screenshot2576292"/>
+         <property name="hostName" value="nadiakhouri - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="68a6fa87b52a65c55a4212d143364853"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Full scenarios/001- Search for Spark Networks" time="20.242" classname="Test Cases/Full scenarios/001- Search for Spark Networks" status="PASSED">
+         <system-out><![CDATA[2022-01-12 20:51:28 - [TEST_CASE][PASSED] - Test Cases/Full scenarios/001- Search for Spark Networks: Test Cases/Full scenarios/001- Search for Spark Networks
+
+2022-01-12 20:51:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common test steps/Navigate to site"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common test steps/Navigate to site' successfully
+
+2022-01-12 20:51:28 - [TEST_CASE][PASSED] - Test Cases/Common test steps/Navigate to site: Test Cases/Common test steps/Navigate to site
+
+2022-01-12 20:51:29 - [TEST_STEP][PASSED] - openBrowser(googleSite): Browser is opened with url: 'www.google.com'
+
+2022-01-12 20:51:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-12 20:51:29 - [MESSAGE][INFO] - User set preference: ['property', '--start-fullscreen']
+
+2022-01-12 20:51:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-12 20:51:39 - [MESSAGE][PASSED] - Browser is opened with url: 'www.google.com'
+
+2022-01-12 20:51:39 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-01-12 20:51:40 - [MESSAGE][PASSED] - Current window maximized
+
+2022-01-12 20:51:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Google/Google search field"), averageWait): Object 'Object Repository/Google/Google search field' is visible
+
+2022-01-12 20:51:40 - [MESSAGE][PASSED] - Object 'Object Repository/Google/Google search field' is visible
+
+2022-01-12 20:51:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common test steps/Navigate to site' successfully
+
+2022-01-12 20:51:40 - [TEST_STEP][PASSED] - searchKeyword = "Spark Networks": null
+
+2022-01-12 20:51:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common test steps/Search function"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common test steps/Search function' successfully
+
+2022-01-12 20:51:40 - [TEST_CASE][PASSED] - Test Cases/Common test steps/Search function: Test Cases/Common test steps/Search function
+
+2022-01-12 20:51:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Google/Google search field"), searchKeyword): Keys 'Spark Networks' sent to object: 'Object Repository/Google/Google search field'
+
+2022-01-12 20:51:41 - [MESSAGE][PASSED] - Keys 'Spark Networks' sent to object: 'Object Repository/Google/Google search field'
+
+2022-01-12 20:51:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Google/search button"), averageWait): Object 'Object Repository/Google/search button' is visible
+
+2022-01-12 20:51:42 - [MESSAGE][PASSED] - Object 'Object Repository/Google/search button' is visible
+
+2022-01-12 20:51:42 - [TEST_STEP][PASSED] - click(findTestObject("Google/search button")): Object: 'Object Repository/Google/search button' is clicked on
+
+2022-01-12 20:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Google/search button' is clicked on
+
+2022-01-12 20:51:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Google/result stats"), averageWait, CONTINUE_ON_FAILURE): Object 'Object Repository/Google/result stats' is visible
+
+2022-01-12 20:51:47 - [MESSAGE][PASSED] - Object 'Object Repository/Google/result stats' is visible
+
+2022-01-12 20:51:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common test steps/Search function' successfully
+
+2022-01-12 20:51:47 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Google/first result returned"), "href", sparkNetworkLink, averageWait, CONTINUE_ON_FAILURE): Object 'Object Repository/Google/first result returned' has attribute 'href' with value 'https://www.spark.net/'
+
+2022-01-12 20:51:48 - [MESSAGE][PASSED] - Object 'Object Repository/Google/first result returned' has attribute 'href' with value 'https://www.spark.net/'
+
+2022-01-12 20:51:48 - [TEST_STEP][PASSED] - closeBrowser(CONTINUE_ON_FAILURE): Browser is closed
+
+2022-01-12 20:51:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Full scenarios/002- Search for funny cat memes" time="14.818" classname="Test Cases/Full scenarios/002- Search for funny cat memes" status="PASSED">
+         <system-out><![CDATA[2022-01-12 20:51:48 - [TEST_CASE][PASSED] - Test Cases/Full scenarios/002- Search for funny cat memes: Test Cases/Full scenarios/002- Search for funny cat memes
+
+2022-01-12 20:51:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common test steps/Navigate to site"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common test steps/Navigate to site' successfully
+
+2022-01-12 20:51:48 - [TEST_CASE][PASSED] - Test Cases/Common test steps/Navigate to site: Test Cases/Common test steps/Navigate to site
+
+2022-01-12 20:51:48 - [TEST_STEP][PASSED] - openBrowser(googleSite): Browser is opened with url: 'www.google.com'
+
+2022-01-12 20:51:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-12 20:51:48 - [MESSAGE][INFO] - User set preference: ['property', '--start-fullscreen']
+
+2022-01-12 20:51:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-12 20:51:55 - [MESSAGE][PASSED] - Browser is opened with url: 'www.google.com'
+
+2022-01-12 20:51:55 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2022-01-12 20:51:55 - [MESSAGE][PASSED] - Current window maximized
+
+2022-01-12 20:51:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Google/Google search field"), averageWait): Object 'Object Repository/Google/Google search field' is visible
+
+2022-01-12 20:51:55 - [MESSAGE][PASSED] - Object 'Object Repository/Google/Google search field' is visible
+
+2022-01-12 20:51:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common test steps/Navigate to site' successfully
+
+2022-01-12 20:51:55 - [TEST_STEP][PASSED] - searchKeyword = "funny cat memes": null
+
+2022-01-12 20:51:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common test steps/Search function"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common test steps/Search function' successfully
+
+2022-01-12 20:51:55 - [TEST_CASE][PASSED] - Test Cases/Common test steps/Search function: Test Cases/Common test steps/Search function
+
+2022-01-12 20:51:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Google/Google search field"), searchKeyword): Keys 'funny cat memes' sent to object: 'Object Repository/Google/Google search field'
+
+2022-01-12 20:51:56 - [MESSAGE][PASSED] - Keys 'funny cat memes' sent to object: 'Object Repository/Google/Google search field'
+
+2022-01-12 20:51:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Google/search button"), averageWait): Object 'Object Repository/Google/search button' is visible
+
+2022-01-12 20:51:57 - [MESSAGE][PASSED] - Object 'Object Repository/Google/search button' is visible
+
+2022-01-12 20:51:57 - [TEST_STEP][PASSED] - click(findTestObject("Google/search button")): Object: 'Object Repository/Google/search button' is clicked on
+
+2022-01-12 20:52:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Google/search button' is clicked on
+
+2022-01-12 20:52:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Google/result stats"), averageWait, CONTINUE_ON_FAILURE): Object 'Object Repository/Google/result stats' is visible
+
+2022-01-12 20:52:01 - [MESSAGE][PASSED] - Object 'Object Repository/Google/result stats' is visible
+
+2022-01-12 20:52:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common test steps/Search function' successfully
+
+2022-01-12 20:52:01 - [TEST_STEP][PASSED] - screenshotPath = screenshotLocation + customKeywords.newKeyword.generateRandomName(): customKeywords.newKeyword.generateRandomName is PASSED
+
+2022-01-12 20:52:01 - [MESSAGE][PASSED] - customKeywords.newKeyword.generateRandomName is PASSED
+
+2022-01-12 20:52:01 - [TEST_STEP][PASSED] - takeScreenshot(customKeywords.newKeyword.filePath(screenshotPath), CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2022-01-12 20:52:01 - [MESSAGE][PASSED] - customKeywords.newKeyword.filePath is PASSED
+
+2022-01-12 20:52:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/nadiakhouri/Katalon Studio/Spark Networks/Data Files/Screenshot/screenshot2576292]]
+
+2022-01-12 20:52:02 - [TEST_STEP][PASSED] - closeBrowser(CONTINUE_ON_FAILURE): Browser is closed
+
+2022-01-12 20:52:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-12 20:51:27 - [TEST_SUITE][PASSED] - Full run: Test Cases/Full scenarios/002- Search for funny cat memes]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

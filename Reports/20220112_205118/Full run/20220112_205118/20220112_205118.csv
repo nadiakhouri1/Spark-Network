@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Full run,Chrome 97.0.4692.71,,,2022-01-12 20:51:27,2022-01-12 20:52:03,35.565s,PASSED
+,,,,,,,
+Test Cases/Full scenarios/001- Search for Spark Networks,Chrome 97.0.4692.71,,,2022-01-12 20:51:28,2022-01-12 20:51:48,20.242s,PASSED
+"callTestCase(findTestCase(""Common test steps/Navigate to site""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,Open browser and navigate to the site,,2022-01-12 20:51:28,2022-01-12 20:51:40,12.123s,PASSED
+"searchKeyword = ""Spark Networks""",Chrome 97.0.4692.71,Change global variable value to Spark Network,,2022-01-12 20:51:40,2022-01-12 20:51:40,0.001s,PASSED
+"callTestCase(findTestCase(""Common test steps/Search function""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,Search for Spark Networks keyword,,2022-01-12 20:51:40,2022-01-12 20:51:47,6.837s,PASSED
+"verifyElementAttributeValue(findTestObject(""Google/first result returned""), ""href"", sparkNetworkLink, averageWait, CONTINUE_ON_FAILURE)",Chrome 97.0.4692.71,Verify the Spark Networks homepage is the first result returned,,2022-01-12 20:51:47,2022-01-12 20:51:48,0.609s,PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 97.0.4692.71,Close browser,,2022-01-12 20:51:48,2022-01-12 20:51:48,0.161s,PASSED
+,,,,,,,
+Test Cases/Full scenarios/002- Search for funny cat memes,Chrome 97.0.4692.71,,,2022-01-12 20:51:48,2022-01-12 20:52:03,14.818s,PASSED
+"callTestCase(findTestCase(""Common test steps/Navigate to site""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,Open browser and navigate to the site,,2022-01-12 20:51:48,2022-01-12 20:51:55,7.103s,PASSED
+"searchKeyword = ""funny cat memes""",Chrome 97.0.4692.71,Change global variable value to funny cat memes,,2022-01-12 20:51:55,2022-01-12 20:51:55,0.001s,PASSED
+"callTestCase(findTestCase(""Common test steps/Search function""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,Search for Spark Networks keyword,,2022-01-12 20:51:55,2022-01-12 20:52:01,5.907s,PASSED
+screenshotPath = screenshotLocation + customKeywords.newKeyword.generateRandomName(),Chrome 97.0.4692.71,,,2022-01-12 20:52:01,2022-01-12 20:52:01,0.049s,PASSED
+"takeScreenshot(customKeywords.newKeyword.filePath(screenshotPath), CONTINUE_ON_FAILURE)",Chrome 97.0.4692.71,Take screenshot and save it in specific path,,2022-01-12 20:52:01,2022-01-12 20:52:02,1.272s,PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 97.0.4692.71,Close browser,,2022-01-12 20:52:02,2022-01-12 20:52:03,0.169s,PASSED
